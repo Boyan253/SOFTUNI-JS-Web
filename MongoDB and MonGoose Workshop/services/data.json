@@ -1,0 +1,14 @@
+{
+    "asdf1234": {
+        "name": "harry",
+        "imageUrl": "https://www.bing.com/th?id=OIP.NcJ6JAq2YaIqcZ3H2mO1gQHaEi&w=174&h=185&c=8&rs=1&qlt=90&o=6&dpr=1.6&pid=3.1&rm=2",
+        "description": "Fast and reliable car, but not one of the best.",
+        "price": 22000
+    },
+    "82bea3e4-2a83": {
+        "name": "toyota tundradwadw",
+        "imageUrl": "https://www.bing.com/th?id=A7127bdcf63ce9ff17da45c312403b495&w=117&h=82&c=7&o=6&dpr=1.6&pid=SANGAM",
+        "description": "awdawdwa",
+        "price": 1243
+    }
+}
