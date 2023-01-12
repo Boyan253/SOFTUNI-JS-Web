@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>About Page</title>
+  <link href="/static/site.css" type="text/css" rel="stylesheet">
+
+  <link rel='shortcut icon' type='image/x-icon'
+    href='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvmRuTFAJWcxpNGO7j4F4d79Iby11My2D05Q&usqp=CAU' />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <ul>
+        <li><img class="logo"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvmRuTFAJWcxpNGO7j4F4d79Iby11My2D05Q&usqp=CAU">
+        </li>
+        <li><a href="/">Browse</a></li>
+         <li><a href="/about">About</a></li>
+        {{#if hasUser}}
+        <li><a href="/create">Publish car listing</a></li>
+        <li><a href="/accessory">Add Accessory</a></li>
+        <li><a href="/logout">Logout</a></li>
+       
+        {{else}}
+        <li><a href="/login">Login</a></li>
+        <li><a href="/register">Register</a></li>
+        
+        {{/if}}
+      </ul>
+    </header>
+    <main>
+      {{{body}}}
+    </main>
+  </div>
+  <footer>@Carbicle: Exercise for Express.js and Handlebars</footer>
+</body>
+<script src="/static/js/app.js"></script>
+
+
+</html>
