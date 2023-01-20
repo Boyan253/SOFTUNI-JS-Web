@@ -1,2 +1,2 @@
 
-Web Course
+Web Course install the needed node libraries. Most likely Express, express-handlebars, mongoose, bcrypt, express-session
