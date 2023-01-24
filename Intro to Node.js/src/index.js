@@ -1,7 +1,7 @@
 
 
 const router = require('./router')
-const { response } = require('express');
+
 const http = require('http');
 
 const { homePage, aboutPage, defaultPage } = require('./homeController');
