@@ -1,0 +1,27 @@
+
+   {{#with user}}
+        <section class="profile col-md-6 text-center col-lg" id="profile-page">
+            <div class="profile-container">
+                <!-- Do not forget to change the path to the image -->
+                <!-- Gender of the user determines which picture is displayed as their avatar -->
+                <img class="profile-img" src="/static/images/{{gender}}.png">
+                <p>Email: <span>{{email}}</span></p>
+            </div>
+            <div class="profile-info">
+                <p>Trips History: <span>{{tripCounts}}</span> counts</p>
+
+                <div class="trips-info">
+                    {{#each trips}}
+                    <!-- If there are trips created by the current logged in user display each of them -->
+                    <p>from <span>{{start}}</span> to <span>{{end}}</span> on <span>{{date}}</span> at
+                        <span>{{time}}</span></p>
+                 
+                    <!-- If there are no trips created by the current logged in user display:-->
+                    {{else}}
+                    <p>there are no offer trips yet...</p>
+                    {{/each}}
+                </div>
+
+            </div>
+        </section>
+ {{/with}}
