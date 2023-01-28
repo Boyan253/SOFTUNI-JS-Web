@@ -1,2 +1,2 @@
 
-Web Course install the needed node libraries. Most likely Express, express-handlebars, mongoose, bcrypt, express-session
+ install the needed node libraries from the package-json with npm i . Most likely Express, express-handlebars, mongoose, bcrypt, express-session
