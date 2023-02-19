@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="col-9">
+        <!-- Start Pet Photos Post Section -->
+        {{#each photos}}
+        <!--If there are no photo yet!-->
+        {{> catalogPartial}}
+        {{else}}
+        <article class="not-available-photo">
+            <h1>No photo posts yet.</h1>
+        </article>
+        {{/each}}
+    </div>
+
+</div>
